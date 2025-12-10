@@ -69,6 +69,7 @@ def train(epoch):
         running_loss += loss.item()
     print('Epoch:', epoch, '\tLoss:', running_loss / len(train_loader))
 
+# test function
 def test():
     correct = 0
     total = 0
